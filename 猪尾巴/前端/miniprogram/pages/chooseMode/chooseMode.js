@@ -7,7 +7,7 @@ Page({
   //模式1
   mode1:function(){
     wx.request({
-      url: 'http://localhost:8888/initcardsetpokers',
+      url: 'http://localhost:5000/initcardsetpokers',
       method:"POST",
       data:{},
       success:function(res){
