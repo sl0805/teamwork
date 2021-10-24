@@ -1,0 +1,46 @@
+.background{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.modeContain{
+  margin-top: 120px;
+  font-size: 100px;
+}
+.turnBack{
+  position: absolute;
+  right: 0;
+  text-decoration: underline;
+  color:black;
+  font-size: 20px;
+}
+.mode{
+  z-index: 1;
+  color: rgb(208, 22, 22);
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: FZshuti;
+  font-weight: bolder;
+  margin-top: 30px;
+  top: 30px;
+}
+.deco{
+  color: rgb(208, 22, 22);
+  font-size: 60px;
+  font-family: FZshuti;
+  font-weight: bolder;
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+.back{
+  position: absolute;
+  right: 0;
+  top: 0px;
+  color: rgb(208, 22, 22);
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: FZshuti;
+  font-weight: bolder;
+}

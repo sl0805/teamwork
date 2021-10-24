@@ -1,0 +1,20 @@
+<view class="container">
+  <image value="name" class='background'  src='https://i.loli.net/2021/10/24/3MN5cCjuoSVLghd.jpg' style="opacity:{{0.5}}"></image>
+  <button bindtap="login" class="back" bindtap="back">返回</button>
+  <view  class="title">
+    <text>猪尾巴</text>
+  </view>
+  <view class="login_info">
+    <view class="input_t">
+      <label class="tips">学号：</label>
+      <input class="input" value="{{student_id}}" placeholder="请输入学号" />
+    </view>
+    <view class="input_t">
+      <label class="tips">密码：</label>
+      <input class="input" value="{{password}}" placeholder="请输入密码" password="true"/>
+    </view>
+    <view class="button_t">
+      <button bindtap="login" class="button1">登录游戏</button>
+    </view>
+  </view>
+</view>

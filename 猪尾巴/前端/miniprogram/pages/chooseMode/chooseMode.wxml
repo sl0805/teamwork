@@ -1,0 +1,12 @@
+<view>
+  <view>
+    <image class="background" src="https://i.loli.net/2021/10/24/3MN5cCjuoSVLghd.jpg" style="opacity: 0.5;"></image>
+  </view>
+  <button class="back" bindtap="back">返回</button>
+  <view class="modeContain">
+    <tip class="deco">对战模式</tip>
+    <button class="mode" bindtap="mode1">本地对战</button>
+    <button class="mode" bindtap="mode2">联机对战</button>
+    <button class="mode" bindtap="mode3">人机对战</button>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+<view class="container">
+  <image class='background'  src='https://i.loli.net/2021/10/24/gz4P75b1cqj8otl.jpg' style="opacity:{{0.5}}"></image>
+  <view>
+    <tab class="player2_name">P2</tab>
+    <div class="player2_cards">
+      <image class="type" src="/images/poker/back.jpg" id="C2"></image>
+      <image class="type" src="/images/poker/back.jpg" id="D2"></image>
+      <image class="type" src="/images/poker/back.jpg" id="H2"></image>
+      <image class="type" src="/images/poker/back.jpg" id="S2"></image>
+    </div>
+  </view>
+  <view>
+    <tab class="player1_name">P1</tab>
+    <div class="player1_cards">
+      <image class="type" src="/images/poker/{{player1_C[player1_C.length-1]}}.jpg" bindtap="whatCard" id="C1"></image>
+      <image class="type" src="/images/poker/{{player1_D[player1_D.length-1]}}.jpg" bindtap="whatCard" id="D1"></image>
+      <image class="type" src="/images/poker/{{player1_H[player1_H.length-1]}}.jpg" bindtap="whatCard" id="H1"></image>
+      <image class="type" src="/images/poker/{{player1_S[player1_S.length-1]}}.jpg" bindtap="whatCard" id="S1"></image>
+    </div>
+    <button class="player1_btn1" bindtap="player_outCard" disabled="{{is_player}}">出牌</button>
+  </view>
+  <view>
+    <tab class="area1_name">牌组</tab>
+    <view class="area1">
+      <image src="/images/poker/back.jpg" class="noCard"></image>
+    </view>
+    <button class="btn1" bindtap="player_group" disabled="{{is_player}}">出牌</button>
+  </view>
+  <view>
+    <tab class="area2_name">放置区</tab>
+    <view class="area2">
+      <image src="/images/poker/{{placearea_pokers[placearea_pokers.length-1]}}.jpg" class="noCard"></image>
+    </view>
+  </view>
+</view>
