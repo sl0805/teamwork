@@ -139,7 +139,7 @@ Page({
     })
     var that=this
     wx.request({
-      url: 'http://localhost:8888/action',
+      url: 'http://localhost:5000/action',
       method:"POST",
       data:{
         player:this.data.player,
@@ -168,7 +168,7 @@ Page({
     })
     var that=this
     wx.request({
-      url: 'http://localhost:8888/action',
+      url: 'http://localhost:5000/action',
       method:"POST",
       data:{
         player:this.data.player,
@@ -197,7 +197,7 @@ Page({
       player:0
     })
       wx.request({
-        url: 'http://localhost:8888/action',
+        url: 'http://localhost:5000/action',
         method:"POST",
         data:{
           player:this.data.player,
@@ -227,7 +227,7 @@ Page({
       player:1
     })
       wx.request({
-        url: 'http://localhost:8888/action',
+        url: 'http://localhost:5000/action',
         method:"POST",
         data:{
           player:this.data.player,
