@@ -1,0 +1,42 @@
+/**index.wxss**/
+
+page {
+  background-color: #f6f6f6;
+  padding-bottom: 60rpx;
+}
+.container { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 0; 
+  box-sizing: border-box; 
+  background-color: white;
+ } 
+.background{
+  position: absolute;
+  width:100%;
+  height:100%;
+}
+.old_or_new{
+  margin-top: 120px;
+}
+.room{
+  margin-top: 10px;
+}
+.roomType{
+  color: rgb(208, 22, 22);
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: FZshuti;
+  font-weight: bolder;
+}
+.back{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: rgb(208, 22, 22);
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: FZshuti;
+  font-weight: bolder;
+}

@@ -1,0 +1,10 @@
+<view class="container">
+  <image value="name" class='background'  src='https://i.loli.net/2021/10/24/3MN5cCjuoSVLghd.jpg' style="opacity:{{0.5}}"></image>
+  <view  id="title" class="name">
+    <text>猪尾巴</text>
+  </view>
+  <view>
+    <button id="title" class="start_game" bindtap="startGame">开始游戏</button>
+  </view>
+  <view id="title" class="rules" bindtap="rules">游戏规则</view>
+</view>

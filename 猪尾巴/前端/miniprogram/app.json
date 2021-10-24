@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/playGame_1/playGame_1",
+    "pages/index/index",
+    "pages/ruleDecription/ruleDecription",
+    "pages/chooseMode/chooseMode",
+    "pages/enterRoom/enterRoom",
+    "pages/login/login",
+    "pages/playGame_2/playGame_2",
+    "pages/playGame_3/playGame_3"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "猪尾巴3943",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

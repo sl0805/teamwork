@@ -1,0 +1,120 @@
+page {
+  background-color: #f6f6f6;
+}
+.container { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 0; 
+  box-sizing: border-box; 
+  background-color: white;
+ } 
+.background{
+  position: absolute;
+  /*top:40rpx;
+  left:40rpx;*/
+  width:100%;
+  height:100%;
+  z-index: -1;
+}
+.player1_cards{
+  position: absolute;
+  width: 75%;
+  background-color: transparent;
+  height: 150rpx;
+  bottom: 20px;
+  right: 70px;
+}
+.player2_cards{
+  top: 20px;
+  position: absolute;
+  width: 75%;
+  background-color: transparent;
+  height: 150rpx;
+  left: 70px;
+}
+.type{
+  z-index: 1;
+  width:50px;
+  height: 75px;
+  margin-left: 20px;
+}
+.player1_name{
+  position: absolute;
+  right: 5px;
+  font-size: 40px;
+  bottom: 20px;
+}
+.player2_name{
+  position: absolute;
+  left: 5px;
+  font-size: 40px;
+}
+.player1_btn1{
+  position: absolute;
+  bottom: 130px;
+  border-color: red;
+  border-style: double;
+  background-color: yellow;
+  right: 60px;
+}
+.player2_btn1{
+  position: absolute;
+  top: 130px;
+  border-color: red;
+  border-style: double;
+  background-color: yellow;
+  right: 60px;
+}
+.area1{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background-color: rosybrown;
+  vertical-align: middle;
+  top: 225px;
+  left: 42px;
+}
+.noCard{
+  width: 50px;
+  height: 76px;
+  padding-left: 25px;
+  padding-top: 38px;
+}
+.area1_name{
+  position: absolute;
+  writing-mode: vertical-lr;
+  left: 0;
+  top: 250px;
+  font-size: 30px;
+}
+.area2{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background-color: rosybrown;
+  vertical-align: middle;
+  top: 225px;
+  right: 42px;
+}
+.area2_name{
+  position: absolute;
+  writing-mode: vertical-lr;
+  right: 0;
+  top: 250px;
+  font-size: 30px;
+}
+.btn1{
+  position: absolute;
+  border-style: double;
+  background-color: sandybrown;
+  top: 160px;
+  left: 60px;
+}
+.btn2{
+  position: absolute;
+  border-style: double;
+  background-color: sandybrown;
+  bottom: 160px;
+  left: 60px;
+}

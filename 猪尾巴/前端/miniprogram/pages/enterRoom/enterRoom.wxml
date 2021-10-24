@@ -1,0 +1,20 @@
+<view class="container">
+  <image class='background'  src='https://i.loli.net/2021/10/24/3MN5cCjuoSVLghd.jpg' style="opacity:{{0.5}}"></image>
+  <view class="old_or_new">
+  <button class="back" bindtap="back">返回</button>
+    <view  class="room">
+      <button bindtap="createRoom" class="roomType">创建房间</button>
+    </view>
+    <view  class="room">
+      <button bindtap="enterRoom" class="roomType">加入房间</button>
+      <modal hidden="{{show_input}}" title="请输入房间号" 
+   			confirm-text="进入房间" cancel-text="取消" bindcancel="cancel" 
+   			bindconfirm="enterBtn">
+        <input placeholder="请输入房间号" value="{{uuid}}" bindinput="uuidInput"></input>
+      </modal>
+    </view>
+    <view  class="room">
+      <button bindtap="find" class="roomType">查询房间</button>
+    </view>
+</view>
+</view>
