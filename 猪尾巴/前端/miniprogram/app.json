@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/playGame_1/playGame_1",
     "pages/index/index",
+    "pages/playGame_1/playGame_1",
     "pages/ruleDecription/ruleDecription",
     "pages/chooseMode/chooseMode",
     "pages/enterRoom/enterRoom",
