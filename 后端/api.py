@@ -151,4 +151,5 @@ def online_trusteeship_api():
     return jsonify(code=200, data=load, msg="操作成功")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8888, host='0.0.0.0')
+    #app.run(debug=True, port=8888, host='0.0.0.0')
+    app.run()
