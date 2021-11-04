@@ -1,0 +1,79 @@
+/**index.wxss**/
+
+page {
+  padding-top: 54rpx;
+  background-color: #f6f6f6;
+  padding-bottom: 60rpx;
+}
+.container { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 0; 
+  box-sizing: border-box; 
+  background-color: transparent;
+ } 
+.background{
+  z-index: -1;
+  position: absolute;
+  top:0rpx;
+  left:0rpx;
+  width:100%;
+  height:100%;
+}
+.title{
+  z-index: 1;
+  padding-top: 60px;
+  color: rgb(208, 22, 22);
+  font-size: 60px;
+  font-family: FZshuti;
+  font-weight: bolder;
+}
+/*表单内容*/
+.login_info { 
+  margin-top: 20px; 
+  flex: auto; 
+  height:100%; 
+  margin-top: 80px;
+ } 
+
+.tips { 
+  z-index: 1;
+  color: rgb(208, 22, 22);
+  font-size: 30px;
+  opacity: 0.8;
+  text-decoration: underline;
+  font-family: FZshuti;
+  font-weight: bolder;
+ } 
+ .input { 
+  flex: block; 
+  float: right; 
+  text-align: left; 
+  border-style:inset;
+  border-color: orange;
+  font-size: 15px;
+  width: 160px;
+  height: 30px;
+ } 
+.input_t{
+  margin-top: 20px;
+}
+.button1{
+  margin-top: 15px;
+  color: rgb(208, 22, 22);
+  text-decoration: underline;
+  font-size: 60px;
+  font-family: FZshuti;
+  font-weight: bolder;
+}
+.back{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: rgb(208, 22, 22);
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: FZshuti;
+  font-weight: bolder;
+}

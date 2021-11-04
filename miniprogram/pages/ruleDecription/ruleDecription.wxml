@@ -1,0 +1,20 @@
+<view class="container">
+  <image value="name" class='background'  src='/images/background.jpeg' style="opacity:{{0.5}}"></image>
+  <view class="back" bindtap="back">返回</view>
+  <view class="rules">
+    <swiper indicator-dots="true" autoplay="true" interval="2000">     
+       <swiper-item>
+       <image class="rule"src="/images/rules/1.png"></image>                  
+       </swiper-item>
+       <swiper-item>
+       <image class="rule"src="/images/rules/2.png"></image>                  
+       </swiper-item>
+       <swiper-item>
+       <image class="rule"src="/images/rules/3.png"></image>                  
+       </swiper-item>
+       <swiper-item>
+       <image class="rule"src="/images/rules/4.png"></image>                  
+       </swiper-item>
+       </swiper>
+  </view>
+</view>

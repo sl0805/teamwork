@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+page {
+  padding-top: 54rpx;
+  background-color: #f6f6f6;
+  padding-bottom: 60rpx;
+}
+.background{
+  z-index: -1;
+  position: absolute;
+  top:0rpx;
+  left:0rpx;
+  width:100%;
+  height:100%;
+}
+#title{
+  z-index: 1;
+  color: rgb(208, 22, 22);
+  font-weight: bolder;
+  font-family: FZshuti;
+}
+.name{
+  font-size: 60px;
+  padding-top: 60px;
+}
+.start_game{
+  font-size: 60px;
+  padding-top: 150px;
+  text-decoration: underline;
+}
+.rules{
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+}
