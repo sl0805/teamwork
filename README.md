@@ -1,17 +1,12 @@
-# 结对作业：猪尾巴
-<img  src="https://img.shields.io/badge/language-python-blue">   <img  src="https://img.shields.io/badge/language-JavaScript-blue">   [![download](https://img.shields.io/badge/download-%E7%8C%AA%E5%B0%BE%E5%B7%B4-blue)](https://start.firefoxchina.cn/)  <img  src="https://img.shields.io/badge/%E5%BD%A2%E5%BC%8F-%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-blue">
-## 运行环境 
-* python3：需要安装的库：flask，datetime
+# 云开发 quickstart
 
-* 微信开发者工具
-## 编译方法及使用方法
-* 如果您需要实现的内容是本地对战和人机对战，麻烦你进行以下操作：
-  * 保证您有一台电脑，能够运行python项目，且有微信开发者工具
-  * 请先用pycharm等工具，运行api.py，即开启本地服务器
-  * 在使用微信开发者工具，运行前端项目，编译使用
-  
-*  如果您需要实现的是在线对战，麻烦你进行以下操作：
-    * 使用电脑打开微信开发者工具，编译，微信扫码
-    * 在手机上连接校园网，即可使用
-  
-* 如果给您造成了麻烦，请谅解，我们小组在最后几天才发现这样的情况，目前暂没解决。
+这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+
+- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
+- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
+- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+
+## 参考文档
+
+- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+
